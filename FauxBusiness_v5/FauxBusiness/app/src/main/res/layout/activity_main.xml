@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-
+#The scroll view is an idea from my udacity mentor so that all the information can be seen regardless of screen size
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context="com.lupitaconqueso.fauxbusiness.MainActivity">
-
+#The title of the business is cheese addicts 
         <TextView
             android:id="@+id/CheeseAddicts"
             android:layout_width="wrap_content"
@@ -31,7 +31,7 @@
             android:layout_below="@id/CheeseAddicts"
             android:text="So what is Cheese Addicts you may say? \nWell it is in the business of not only making people \nsmile but also helping build that confidence to fuel more smiles!"
             android:textSize="16sp" />
-
+#the code below is for hte image on the application to show when ever it is initiated. 
         <ImageView
             android:id="@+id/smile_image"
             android:layout_width="match_parent"
@@ -42,7 +42,7 @@
             android:scaleType="centerCrop"
             android:src="@drawable/smile" />
 
-
+#the block of code below is for the contact information for the business. 
         <TextView
             android:id="@+id/ContactUs"
             android:layout_width="wrap_content"
