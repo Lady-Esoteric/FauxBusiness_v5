@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.lupitaconqueso.fauxbusiness.MainActivity">
+
+        <TextView
+            android:id="@+id/CheeseAddicts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#FFCC00"
+            android:text="Cheese Addicts!"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/CheeseAddicts"
+            android:text="So what is Cheese Addicts you may say? \nWell it is in the business of not only making people \nsmile but also helping build that confidence to fuel more smiles!"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/smile_image"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/Description"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/smile" />
+
+
+        <TextView
+            android:id="@+id/ContactUs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/smile_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:background="#FFCC00"
+            android:text="Contact Us!"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/Phoneline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ContactUs"
+            android:layout_marginBottom="8dp"
+            android:background="#FF9900"
+            android:text="Call us:(215)123-4567\nVisit us @ 123 Market St, Phila, Pa\nOur business hours are Monday - Saturday 8am-8pm "
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+</ScrollView>
